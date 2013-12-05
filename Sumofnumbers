@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class Sum1
+{
+
+  public static void main(String args[])
+
+  {
+
+  int fnum,snum,result;
+  Scanner sum = new Scanner(System.in);
+
+  System.out.println("Enter the first num :");
+  fnum = sum.nextInt();
+  System.out.println("Enter second num :");
+  snum = sum.nextInt();
+
+  result = fnum + snum;
+
+  System.out.println("Result : "+ result);
+
+  }
+
+}
+
+
+
+
